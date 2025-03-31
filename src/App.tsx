@@ -4,7 +4,7 @@ import Peer from 'simple-peer';
 import io from 'socket.io-client';
 import { Video, Phone, PhoneOff, Copy, CheckCircle2, Camera, Mic, Settings } from 'lucide-react';
 
-const socket = io('wss://instant-meet-server.onrender.com', {
+const socket = io('https://videoconference-chu6.onrender.com', {
   transports: ['websocket'],
   reconnection: true,
   reconnectionAttempts: 5,
